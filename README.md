@@ -1,9 +1,9 @@
 
-## Introduction
+## Introduction 🚀
 
 La validation d'une chaîne de certificats X.509 est une étape cruciale dans la sécurisation des communications sur Internet. Les certificats X.509 sont utilisés dans de nombreux protocoles de sécurité, notamment TLS et SSL, qui sécurisent les communications entre les navigateurs web et les serveurs.
 
-### Objectifs :
+### Objectifs 🎯
 
 - **Authenticité :** Confirmer l'authenticité du serveur ou du site web pour prévenir les attaques de type "homme du milieu".
   
@@ -15,17 +15,17 @@ La validation d'une chaîne de certificats X.509 est une étape cruciale dans la
   
 - **Exigences légales et de conformité :** Se conformer aux normes et réglementations en vigueur, telles que celles définies par l'industrie des cartes de paiement (PCI).
 
-## Choix des outils, du langage et des librairies
+## Choix des outils, du langage et des librairies 🐍
 
 Le projet a été réalisé en Python, un langage de programmation de haut niveau largement utilisé pour le développement de logiciels dans divers domaines.
 
-### Modules utilisés :
+### Modules utilisés 🔐
 
 - **cryptography :** Pour la manipulation et la validation des certificats PEM ou DER.
   
 - **ecdsa :** Pour effectuer une vérification mathématique de la signature du certificat.
 
-## Étapes implémentées
+## Étapes implémentées ⛓️
 
 Toutes les étapes demandées ont été implémentées, permettant de traiter :
 
@@ -41,7 +41,7 @@ Toutes les étapes demandées ont été implémentées, permettant de traiter :
 - La vérification du statut de révocation avec CRL
 - La vérification du statut de révocation avec OCSP
 
-## Structure du programme
+## Structure du programme 👨‍💻
 
 Le programme est structuré en plusieurs fonctions qui effectuent des tâches spécifiques, facilitant ainsi la compréhension et la maintenance du code. Il utilise le module "argparse" pour gérer les arguments de la ligne de commande, permettant à l'utilisateur de spécifier le format du certificat et le chemin d'accès au fichier du certificat.
 
@@ -52,13 +52,13 @@ Le programme est structuré en plusieurs fonctions qui effectuent des tâches sp
 
 <img width="732" alt="Capture d’écran 2024-03-30 à 18 27 30" src="https://github.com/JeremyBeaule/Verify_certificat_chain_pem_der/assets/62985330/080f8648-75db-4e09-9f40-56ff1b38360d">
 
-## Difficultés rencontrées
+## Difficultés rencontrées 💥
 
 - **Calculs sur les courbes elliptiques :** La complexité des calculs mathématiques impliqués dans la vérification des signatures ECDSA a représenté un défi majeur, nécessitant une compréhension approfondie des principes cryptographiques sous-jacents.
   
 - **Utilisation de la bibliothèque cryptography :** Malgré sa puissance, la prise en main de cette bibliothèque a exigé un effort significatif pour maîtriser ses différentes fonctionnalités et intégrer ses composants dans notre solution.
 
-## Améliorations possibles
+## Améliorations possibles 📈
 
 - **Restructuration du code :** Pour améliorer la lisibilité et la maintenabilité du programme, une restructuration est envisageable.
   
@@ -70,7 +70,7 @@ Le programme est structuré en plusieurs fonctions qui effectuent des tâches sp
   
 - **Assistance utilisateur :** L'ajout d'un bouton d'information sur l'interface graphique, offrant des aides et des conseils, améliorerait l'expérience utilisateur.
 
-## Ressources
+## Ressources 📚
 
 - **Aide au développement :** ChatGPT / Copilot
 - **Librairie PEM parsing en Python :** [pem](https://github.com/hynek/pem?tab=readme-ov-file)
