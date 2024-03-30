@@ -78,3 +78,8 @@ Le programme est structuré en plusieurs fonctions qui effectuent des tâches sp
   - [cryptography](https://cryptography.io/en/latest/x509/reference/)
   - [ecdsa](https://github.com/pyca/cryptography/tree/main)
 - **Documentation complémentaire :** [Cryptographie](https://people.eecs.berkeley.edu/%7Ejonah/lcrypto/overview-summary.html)
+
+## Concepteurs
+
+- BEAULÉ Jeremy
+- JAIL Jean-Baptiste
